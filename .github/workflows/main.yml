@@ -19,9 +19,9 @@ jobs:
       - name: my-step-2
         run: echo "Hello World Test -2!"
   job-03:
+    runs-on: windows-latest
     steps:
       - name: my-step-3
-        runs-on: windows-latest
         run: echo "Hello World Test -3!"
     
     
