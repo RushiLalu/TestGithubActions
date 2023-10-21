@@ -32,15 +32,8 @@ jobs:
     steps1:
       - name: my-step-4
         run: echo "Hello World Test -4!"
-      - uses: actions/checkout@v2
-      - name: my-step-4
-        run: echo "Hello World Test -4!"
       - name: my-step-4
         run: echo "Hello World Test -4!"
     steps2:
       - name: my-step-5
         run: echo "Hello World Test -5!"
-      - uses: actions/checkout@v2
-      - uses: actions/setup-dotnet@v1
-      - name: Build
-        run: dotnet build
