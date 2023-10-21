@@ -6,17 +6,17 @@ on:
   pull_request:
     branches: [ main ]
 jobs:
-  job1:
+  job-01:
     runs-on: ubuntu-latest
     steps:
       - name: my-step-1
         run: echo "Hello World Test -1!"
-  job2:
+  job-02:
     runs-on: ubuntu-latest
     steps:
       - name: my-step-2
         run: echo "Hello World Test -2!"
-  job3:
+  job-03:
     runs-on: ubuntu-latest
     steps:
       - name: my-step-3
