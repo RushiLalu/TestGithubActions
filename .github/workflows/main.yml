@@ -27,13 +27,4 @@ jobs:
     steps:
       - name: my-step-3
         run: echo "Hello World Test -3!"
-  job-04:
-    runs-on: windows-latest
-    steps1:
-      - name: my-step-4
-        run: echo "Hello World Test -4!"
-      - name: my-step-4
-        run: echo "Hello World Test -4!"
-    steps2:
-      - name: my-step-5
-        run: echo "Hello World Test -5!"
+
