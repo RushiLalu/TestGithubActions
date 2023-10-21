@@ -2,8 +2,23 @@ name: hello-world3
 run-name: ${{ github.actor }} is learning GitHub Actions
 'on': push
 jobs:
-  my-job:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: my-step-1
+        run: echo "Hello World Test -1!"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step-2
+        run: echo "Hello World Test -2!"
+  job3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step-3
         run: echo "Hello World Test -3!"
+    
+    
+
+
+    
