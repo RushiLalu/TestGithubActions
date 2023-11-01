@@ -7,6 +7,6 @@ jobs:
   runs-on: ubuntu-latest
   
   steps:
-    - name: my-step-1
-      uses: ./workflows/serviceChild1.yml
+    - name: Parent - 1
+      uses: ./.github/workflows/serviceChild1.yml
 
