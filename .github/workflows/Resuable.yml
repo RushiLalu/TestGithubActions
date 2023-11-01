@@ -1,0 +1,11 @@
+name: Reusable workflow - 1
+run-name: "${{ github.actor }} is learning GitHub Actions"
+"on":
+  workflow_call:
+
+jobs:
+  run-job-01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Workflow get Called - One
+      - uses: actions/checkout@v3
