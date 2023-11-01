@@ -4,9 +4,6 @@ on:
 
 jobs:
  job_1:
-  runs-on: ubuntu-latest
-  
-  steps:
-    - name: Parent - 1
-      uses: ./.github/workflows/serviceChild1.yml
+ 
+   uses: ./.github/workflows/ResuableWorkflow1.yml
 
