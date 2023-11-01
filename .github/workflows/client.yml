@@ -1,0 +1,14 @@
+name: hello-world-Reusble
+on: push
+jobs:
+  my-job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World -1!"
+
+  my-job-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World -2!"
