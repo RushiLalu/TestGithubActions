@@ -1,30 +1,18 @@
-name: child
+name: Child reusbale workflow
 run-name: '${{ github.actor }} is learning GitHub Actions'
 'on':
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-    branch_protection_rule:
-      types:
-        - created
-        - deleted
+  workflow_call:
+
 jobs:
   job-01:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step-1
-        run: echo "Hello World Test -1!"
+      - name: Workflow get Called - One
+        run: echo "Hello World -1 !"
+
   job-02:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step-2
-        run: echo "Hello World Test -2!"
-  job-03:
-    runs-on: windows-latest
-    steps:
-      - name: my-step-3
-        run: echo "Hello World Test -3!"
-
+      - name: Workflow get Called - Two
+        run: echo "Hello World -2 !"
+  
