@@ -1,5 +1,7 @@
-name: hello-world-Reusble
-on: push
+name: Main class workflow
+on:
+  workflow_run:
+    workflows: ["Child"]
 jobs:
   my-job-1:
     runs-on: ubuntu-latest
