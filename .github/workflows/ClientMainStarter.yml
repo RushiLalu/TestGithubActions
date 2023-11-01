@@ -5,5 +5,5 @@ on:
 jobs:
  job_1:
  
-   uses: ./.github/workflows/ResuableWorkflow1.yml
+   uses: TestGithubActions/blob/main/.github/workflows/ResuableWorkflow1.yml@main
 
