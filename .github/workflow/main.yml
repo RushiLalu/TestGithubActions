@@ -1,8 +1,0 @@
-name: Resubale Main Class
-on:
-  workflow_dispatch:
-
-jobs:
- job_1:
- 
-   uses: TestGithubActions/.github/workflow/Resuable.yml
