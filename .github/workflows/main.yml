@@ -5,4 +5,4 @@ on:
 jobs:
  job_1:
  
-   uses: RushiLalu/TestGithubActions/.github/workflows/Resuable.yml@main
+   uses: ./.github/workflows/Resuable.yml
