@@ -1,4 +1,4 @@
-name: Main class workflow
+name: Composite class workflow
 on: workflow_dispatch
 
 jobs:
