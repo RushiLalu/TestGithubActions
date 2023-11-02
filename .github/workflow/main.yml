@@ -1,4 +1,4 @@
-name: Main class workflow
+name: Resubale Main Class
 on:
   workflow_dispatch:
 
