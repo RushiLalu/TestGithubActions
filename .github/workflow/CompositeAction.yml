@@ -1,5 +1,5 @@
 name: Main class workflow
-on: push
+on: workflow_dispatch
 
 jobs:
   composite-Workflow-job_1:
