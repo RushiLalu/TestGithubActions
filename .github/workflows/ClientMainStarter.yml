@@ -1,9 +1,0 @@
-name: Main class workflow
-on:
-  workflow_dispatch:
-
-jobs:
- job_1:
- 
-   uses: TestGithubActions/blob/main/.github/workflows/ResuableWorkflow1.yml@main
-

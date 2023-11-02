@@ -1,9 +1,0 @@
-name: Main class workflow
-on:
-  workflow_dispatch:
-
-jobs:
- job_1:
- 
-   uses: .github/workflows/Resuable.yml
-
