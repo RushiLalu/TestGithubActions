@@ -1,5 +1,5 @@
 
-name: Reusable workflow - 1
+name: Reusable 
 run-name: "${{ github.actor }} is learning GitHub Actions"
 "on":
   workflow_call:
