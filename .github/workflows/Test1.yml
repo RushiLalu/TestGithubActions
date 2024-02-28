@@ -27,3 +27,20 @@ jobs:
     steps:
       - name: Greeting Step-3
         run: echo "Hello World"
+
+  greet_jb4:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step-4
+        run: echo "Hello World -4!"
+
+         greet_jb5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting Step-5
+        run: echo "Hello ${{ github.event.inputs.name }}"
+
+
+            
+
+ 
