@@ -8,26 +8,4 @@ jobs:
       - name: my-step
         run: echo "Hello World -1!"
 
-  composite-Workflow-job_2:
-    runs-on: windows-latest
-    steps:
-      - name: my-step
-        run: echo "Hello World -2!"
-
-  composite-Workflow-job_3:
-    runs-on: windows-latest
-    steps:
-      - name: my-step
-        run: echo "Hello World -3!"
-
-  composite-Workflow-job_4:
-    runs-on: windows-latest
-    steps:
-      - name: my-step
-        run: echo "Hello World -4!"
-
-  composite-Workflow-job_5:
-    runs-on: windows-latest
-    steps:
-      - name: my-step
-        run: echo "Hello World -5!"
+  
