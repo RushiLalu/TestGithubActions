@@ -1,0 +1,16 @@
+name: Sample Manual Dispatch workflow test
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Who to greet'
+        required: true
+        default: 'World'
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting Step
+        run: echo "Hello ${{ github.event.inputs.name }}"
