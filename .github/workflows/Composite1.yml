@@ -1,1 +1,15 @@
+name: Composite class workflow
+on: push
 
+jobs:
+  composite-Workflow-job_1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step-1
+        run: echo "Hello World -1!"
+
+  composite-Workflow-job_2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step-2
+        run: echo "Hello World -2!"
