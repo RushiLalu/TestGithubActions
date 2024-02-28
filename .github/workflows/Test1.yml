@@ -9,8 +9,21 @@ on:
         default: 'World'
 
 jobs:
-  greet:
+  greet_jb1:
     runs-on: ubuntu-latest
     steps:
-      - name: Greeting Step
+      - name: Greeting Step-1
         run: echo "Hello ${{ github.event.inputs.name }}"
+
+  greet_jb2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting Step-2
+        run: echo "Hello World"
+
+
+  greet_jb3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting Step-3
+        run: echo "Hello World"
